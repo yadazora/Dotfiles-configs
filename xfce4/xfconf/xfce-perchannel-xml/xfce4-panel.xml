@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="2"/>
+    <value type="int" value="3"/>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=4;x=1520;y=875"/>
+      <property name="size" type="uint" value="25"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="4"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.750000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.250000"/>
+        <value type="double" value="0.000000"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="68"/>
+      <property name="leave-opacity" type="uint" value="72"/>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=8;x=109;y=887"/>
+      <property name="size" type="uint" value="24"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="6"/>
+        <value type="int" value="13"/>
+        <value type="int" value="7"/>
+        <value type="int" value="11"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="leave-opacity" type="uint" value="38"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.432886"/>
+      </property>
+    </property>
+    <property name="dark-mode" type="bool" value="false"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-5" type="string" value="whiskermenu"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “sweet home” active: sweet home (66%)"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (84%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (82%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (100%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (79%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (87%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (85%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (90%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (89%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (91%)"/>
+        <value type="string" value="wi-fi network connection “yada” active: yada (83%)"/>
+        <value type="string" value="wi-fi network connection “sweet home” active: sweet home (69%)"/>
+        <value type="string" value="wi-fi network connection “sweet home” active: sweet home (82%)"/>
+        <value type="string" value="wi-fi network connection “sweet home” active: sweet home (56%)"/>
+        <value type="string" value="gnome-pie"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="wi-fi network connection “konnect” active: konnect (77%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (57%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (77%)"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (71%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (62%)"/>
+        <value type="string" value="wi-fi network connection “malibu” active: malibu (81%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (63%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (58%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (86%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (65%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (98%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (95%)"/>
+        <value type="string" value="wi-fi network connection “atonya” active: atonya (89%)"/>
+        <value type="string" value="wi-fi network connection “home sweet home” active: home sweet home (87%)"/>
+        <value type="string" value="bluetooth enabled"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="unityhub1"/>
+        <value type="string" value="TeamViewer"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="Insync"/>
+        <value type="string" value="whatsdesk1"/>
+        <value type="string" value="QtWAW"/>
+        <value type="string" value="zoom "/>
+        <value type="string" value="Upwork1"/>
+        <value type="string" value="MEGAsync"/>
+        <value type="string" value="Element1"/>
+        <value type="string" value="whatsapp-nativefier-d402111"/>
+        <value type="string" value="NitroShare"/>
+        <value type="string" value="superProductivity1"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="strawberry"/>
+        <value type="string" value="NeoChat"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="droidcam"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="redshift"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="Onboard"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Garuda System Maintenance"/>
+        <value type="string" value="Slack1"/>
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="notification-plugin"/>
+    <property name="plugin-9" type="string" value="separator"/>
+    <property name="plugin-10" type="string" value="separator"/>
+    <property name="plugin-11" type="string" value="separator"/>
+    <property name="plugin-13" type="string" value="power-manager-plugin"/>
+    <property name="plugin-2" type="string" value="windowmenu">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator"/>
+    <property name="plugin-1" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance102128;chromium.instance103149;chromium.instance103376;chromium.instance10562;chromium.instance106864;chromium.instance11046;chromium.instance11364;chromium.instance11410;chromium.instance114174;chromium.instance115338;chromium.instance116675;chromium.instance116957;chromium.instance117110;chromium.instance117482;chromium.instance118090;chromium.instance118535;chromium.instance12104;chromium.instance12450;chromium.instance124568;chromium.instance129796;chromium.instance131551;chromium.instance138752;chromium.instance142186;chromium.instance143805;chromium.instance144275;chromium.instance14995;chromium.instance150482;chromium.instance15123;chromium.instance161437;chromium.instance165186;chromium.instance166429;chromium.instance167632;chromium.instance169706;chromium.instance18045;chromium.instance183338;chromium.instance18402;chromium.instance18711;chromium.instance1934;chromium.instance195526;chromium.instance19620;chromium.instance1977;chromium.instance201338;chromium.instance202801;chromium.instance206289;chromium.instance21032;chromium.instance2143;chromium.instance2146;chromium.instance2160;chromium.instance216722;chromium.instance2181;chromium.instance2199;chromium.instance22086;chromium.instance2211;chromium.instance221282;chromium.instance2223;chromium.instance2236;chromium.instance230855;chromium.instance2328;chromium.instance233215;chromium.instance236593;chromium.instance2396;chromium.instance242715;chromium.instance2428;chromium.instance244283;chromium.instance2472;chromium.instance2497;chromium.instance2532;chromium.instance2600;chromium.instance2603;chromium.instance26171;chromium.instance2618;chromium.instance2621;chromium.instance2654;chromium.instance26575;chromium.instance268038;chromium.instance270294;chromium.instance27345;chromium.instance273787;chromium.instance2815;chromium.instance2858;chromium.instance286528;chromium.instance291474;chromium.instance2951;chromium.instance300210;chromium.instance30282;chromium.instance305961;chromium.instance309772;chromium.instance3170;chromium.instance321162;chromium.instance3240;chromium.instance32476;chromium.instance32766;chromium.instance33588;chromium.instance33691;chromium.instance3396;chromium.instance34305;chromium.instance343651;chromium.instance34728;chromium.instance3482;chromium.instance353045;chromium.instance3535;chromium.instance36122;chromium.instance361668;chromium.instance362607;chromium.instance363026;chromium.instance368338;chromium.instance372929;chromium.instance3754;chromium.instance38890;chromium.instance38938;chromium.instance3904;chromium.instance40416;chromium.instance407450;chromium.instance40949;chromium.instance416509;chromium.instance42217;chromium.instance4223;chromium.instance424650;chromium.instance43008;chromium.instance432757;chromium.instance433254;chromium.instance4334;chromium.instance43636;chromium.instance437599;chromium.instance46705;chromium.instance46852;chromium.instance47151;chromium.instance48385;chromium.instance50097;chromium.instance5178;chromium.instance52457;chromium.instance55250;chromium.instance56513;chromium.instance5690;chromium.instance59117;chromium.instance61091;chromium.instance61629;chromium.instance6238;chromium.instance66707;chromium.instance6806;chromium.instance68694;chromium.instance69435;chromium.instance70519;chromium.instance72333;chromium.instance7279;chromium.instance74593;chromium.instance74735;chromium.instance75515;chromium.instance79524;chromium.instance79578;chromium.instance82194;chromium.instance8352;chromium.instance83865;chromium.instance8665;chromium.instance8712;chromium.instance87526;chromium.instance88882;chromium.instance89489;chromium.instance89936;chromium.instance90910;chromium.instance9132;chromium.instance94089;chromium.instance96965;chromium.instance97107;chromium.instance99244;firefox.instance143845;firefox.instance147405;firefox.instance41287;io.github.celluloid_player.Celluloid.instance-1;rhythmbox;spotify;vlc"/>
+    </property>
+  </property>
+</channel>
